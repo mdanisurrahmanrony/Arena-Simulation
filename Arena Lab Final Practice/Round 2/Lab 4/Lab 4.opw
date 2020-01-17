@@ -1,0 +1,12 @@
+[RESOURCES]
+Repair Station
+Inspect Station
+[VARIABLES]
+Checking Product.NumberOut True
+Checking Product.NumberOut False
+Inspect.NumberIn
+Inspect.NumberOut
+Give to Owner.NumberOut
+Repair.NumberIn
+Repair.NumberOut
+Arrival.NumberOut

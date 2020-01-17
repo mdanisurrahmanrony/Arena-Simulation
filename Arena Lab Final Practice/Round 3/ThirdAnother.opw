@@ -1,0 +1,17 @@
+[RESOURCES]
+Doctorr Resource
+Nurse2 Resource
+Nurse1 Resource
+[VARIABLES]
+Decide for Nurse1 Nurse2.NumberOut True
+Exitt.NumberOut
+Nurse 2.NumberIn
+Nurse 1.NumberOut
+Patient Arrival.NumberOut
+Nurse 2.NumberOut
+Decide for Nurse1 Nurse2.NumberOut False
+Doctorr Process.NumberOut
+Decision for Total Patient.NumberOut True
+Decision for Total Patient.NumberOut False
+Doctorr Process.NumberIn
+Nurse 1.NumberIn

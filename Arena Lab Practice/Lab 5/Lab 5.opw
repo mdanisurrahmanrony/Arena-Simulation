@@ -1,0 +1,12 @@
+[RESOURCES]
+Repair Person
+Inspector
+[VARIABLES]
+Inspect.NumberIn
+Inspect.NumberOut
+Dispose 1.NumberOut
+Decide.NumberOut False
+Decide.NumberOut True
+Repair.NumberIn
+Repair.NumberOut
+Arrival.NumberOut

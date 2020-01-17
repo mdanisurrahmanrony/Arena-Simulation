@@ -1,0 +1,57 @@
+
+                                      ARENA Simulation Results
+                                       Rony - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Simple Shop Model System                                    Run execution date : 8/ 4/2019
+Analyst: Rony                                                        Model revision date: 8/ 4/2019
+
+Replication ended at time      : 15.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .06721     (Insuf)    .03345     .11633        190    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        190    
+Customer.WaitTime                           .00895     (Insuf)    .00000     .14255        190    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        190    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        190    
+Customer.TotalTime                          .07616     (Insuf)    .03345     .23998        190    
+Shop Process Female.Queue.WaitingTime       .02245     (Insuf)    .00000     .14255         73    
+Shop Process Male.Queue.WaitingTime         9.6609E-04 (Insuf)    .00000     .01625        118    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .97687     .20144     .00000     6.0000     3.0000    
+Shop Service Female.NumberBusy              .32065     (Insuf)    .00000     1.0000     1.0000    
+Shop Service Female.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Shop Service Female.Utilization             .32065     (Insuf)    .00000     1.0000     1.0000    
+Shop Service Male.NumberBusy                .13111     (Insuf)    .00000     1.0000     .00000    
+Shop Service Male.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Shop Service Male.Utilization               .13111     (Insuf)    .00000     1.0000     .00000    
+Shop Process Female.Queue.NumberInQueue     .10947     (Insuf)    .00000     3.0000     1.0000    
+Shop Process Male.Queue.NumberInQueue       .00760     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           193.00    
+Customer.NumberOut                          190.00    
+Shop Service Female.NumberSeized            73.000    
+Shop Service Female.ScheduledUtilization    .32065    
+Shop Service Male.NumberSeized              118.00    
+Shop Service Male.ScheduledUtilization      .13111    
+System.NumberOut                            190.00    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

@@ -1,0 +1,58 @@
+
+                                      ARENA Simulation Results
+                           anisurrahmanrony49@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 7/17/2019
+Analyst: anisurrahmanrony49@gmail.com                                Model revision date: 7/17/2019
+
+Replication ended at time      : 100000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Flow time                                   11.916     .40860     5.0021     83.103      12395    
+Entity 1.VATime                             7.7314     .05356     5.0000     25.796      12395    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000      12395    
+Entity 1.WaitTime                           4.1854     .37766     .00000     64.496      12395    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000      12395    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000      12395    
+Entity 1.TotalTime                          11.916     .40860     5.0021     83.103      12395    
+Painting.Queue.WaitingTime                  .07339     .00417     .00000     2.3813      12395    
+Assembly.Queue.WaitingTime                  3.4914     .31310     .00000     36.445      14599    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.4772     .06306     .00000     11.000     3.0000    
+Assembly Station.NumberBusy                 .58654     .01194     .00000     1.0000     1.0000    
+Assembly Station.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Assembly Station.Utilization                .58654     .01194     .00000     1.0000     1.0000    
+Painting Process.NumberBusy                 .37185     .00640     .00000     1.0000     .00000    
+Painting Process.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Painting Process.Utilization                .37185     .00640     .00000     1.0000     .00000    
+Painting.Queue.NumberInQueue                .00910     5.7450E-04 .00000     1.0000     .00000    
+Assembly.Queue.NumberInQueue                .50975     .04905     .00000     9.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           12398.    
+Entity 1.NumberOut                          12395.    
+Assembly Station.NumberSeized               14599.    
+Assembly Station.ScheduledUtilization       .58654    
+Painting Process.NumberSeized               12395.    
+Painting Process.ScheduledUtilization       .37185    
+System.NumberOut                            12395.    
+
+
+Simulation run time: 32.80 minutes.
+Simulation run complete.

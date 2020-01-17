@@ -1,0 +1,7 @@
+[RESOURCES]
+ATM Machine
+[VARIABLES]
+Exit.NumberOut
+Cust. Arrival.NumberOut
+ATM Service.NumberIn
+ATM Service.NumberOut

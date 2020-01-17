@@ -1,0 +1,51 @@
+
+                                      ARENA Simulation Results
+                           anisurrahmanrony49@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Task                                                        Run execution date : 7/25/2019
+Analyst: Rony                                                        Model revision date: 7/25/2019
+
+Replication ended at time      : 30.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Flow Time of Task                           .14690     (Insuf)    .08350     .45724        214    
+Cust..VATime                                .14018     (Insuf)    .08350     .38363        214    
+Cust..NVATime                               .00000     (Insuf)    .00000     .00000        214    
+Cust..WaitTime                              .00671     (Insuf)    .00000     .08955        214    
+Cust..TranTime                              .00000     (Insuf)    .00000     .00000        214    
+Cust..OtherTime                             .00000     (Insuf)    .00000     .00000        214    
+Cust..TotalTime                             .14690     (Insuf)    .08350     .45724        214    
+Booth.Queue.WaitingTime                     .00668     (Insuf)    .00000     .08955        215    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Cust..WIP                                   1.0519     .18264     .00000     7.0000     2.0000    
+Booth Machine.NumberBusy                    .23804     .03699     .00000     1.0000     1.0000    
+Booth Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Booth Machine.Utilization                   .23804     .03699     .00000     1.0000     1.0000    
+Booth.Queue.NumberInQueue                   .04789     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cust..NumberIn                              216.00    
+Cust..NumberOut                             214.00    
+Booth Machine.NumberSeized                  215.00    
+Booth Machine.ScheduledUtilization          .23804    
+System.NumberOut                            214.00    
+
+
+Simulation run time: 0.53 minutes.
+Simulation run complete.

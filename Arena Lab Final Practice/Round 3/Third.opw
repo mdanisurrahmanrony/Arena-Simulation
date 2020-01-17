@@ -1,0 +1,12 @@
+[RESOURCES]
+Nurse Resource
+Doctor Resource
+[VARIABLES]
+Nurse Process.NumberOut
+Nurse Process.NumberIn
+Exit of Patient from Clinic.NumberOut
+Doctor.NumberOut
+Doctor.NumberIn
+Decide for Patient.NumberOut False
+Decide for Patient.NumberOut True
+Arrival at Clinic.NumberOut

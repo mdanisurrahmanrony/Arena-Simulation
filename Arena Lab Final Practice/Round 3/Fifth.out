@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                                       Rony - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Close Up Shop Model                                         Run execution date : 8/ 4/2019
+Analyst: Rony                                                        Model revision date: 8/ 4/2019
+
+Replication ended at time      : 12.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TCustomer.VATime                            .03446     (Insuf)    .01677     .04981         90    
+TCustomer.NVATime                           .00000     (Insuf)    .00000     .00000         90    
+TCustomer.WaitTime                          .00698     (Insuf)    .00000     .05989         90    
+TCustomer.TranTime                          .00000     (Insuf)    .00000     .00000         90    
+TCustomer.OtherTime                         .00000     (Insuf)    .00000     .00000         90    
+TCustomer.TotalTime                         .04144     (Insuf)    .01677     .08590         90    
+Tooth Shop.Queue.WaitingTime                .00698     (Insuf)    .00000     .05989         90    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TCustomer.WIP                               .31081     (Insuf)    .00000     3.0000     .00000    
+Resource Close Up Shop.NumberBusy           .25848     (Insuf)    .00000     1.0000     .00000    
+Resource Close Up Shop.NumberScheduled      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource Close Up Shop.Utilization          .25848     (Insuf)    .00000     1.0000     .00000    
+Tooth Shop.Queue.NumberInQueue              .05233     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+TCustomer.NumberIn                          90.000    
+TCustomer.NumberOut                         90.000    
+Resource Close Up Shop.NumberSeized         90.000    
+Resource Close Up Shop.ScheduledUtilizatio  .25848    
+System.NumberOut                            90.000    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

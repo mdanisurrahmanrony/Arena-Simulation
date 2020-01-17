@@ -1,0 +1,16 @@
+[RESOURCES]
+Shop Service Female
+Shop Service Male
+[VARIABLES]
+Male Queue.NumberOut
+Male Queue.NumberIn
+Decision for Male Female.NumberOut False
+Shop Process Male.NumberOut
+Shop Process Male.NumberIn
+Shop Process Female.NumberOut
+Shop Process Female.NumberIn
+Arrival of Customer at Shop.NumberOut
+Decision for Male Female.NumberOut True
+Female Queue.NumberIn
+Exit from Shop.NumberOut
+Female Queue.NumberOut

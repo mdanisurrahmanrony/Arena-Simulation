@@ -1,0 +1,13 @@
+[RESOURCES]
+Doctoor Resource
+Nursee2 Resource
+Nursee1 Resource
+[VARIABLES]
+Exiit.NumberOut
+Patient Arrivall.NumberOut
+Nursee 2.NumberOut
+Nursee 1.NumberOut
+Nursee 2.NumberIn
+Nursee 1.NumberIn
+Doctoor Process.NumberOut
+Doctoor Process.NumberIn

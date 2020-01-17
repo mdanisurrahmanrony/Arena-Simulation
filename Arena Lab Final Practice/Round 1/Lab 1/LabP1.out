@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                           anisurrahmanrony49@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 7/17/2019
+Analyst: anisurrahmanrony49@gmail.com                                Model revision date: 7/17/2019
+
+Replication ended at time      : 14.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Vehicles.VATime                             .19232     (Insuf)    .13911     .24007         72    
+Vehicles.NVATime                            .00000     (Insuf)    .00000     .00000         72    
+Vehicles.WaitTime                           2.2081     (Insuf)    .00000     4.4362         72    
+Vehicles.TranTime                           .00000     (Insuf)    .00000     .00000         72    
+Vehicles.OtherTime                          .00000     (Insuf)    .00000     .00000         72    
+Vehicles.TotalTime                          2.4004     (Insuf)    .17999     4.6368         72    
+Wash Station.Queue.WaitingTime              2.2405     (Insuf)    .00000     4.5684         73    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Vehicles.WIP                                17.851     (Insuf)    .00000     36.000     34.000    
+Wash Machine.NumberBusy                     1.0000     (Insuf)    .00000     1.0000     1.0000    
+Wash Machine.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Wash Machine.Utilization                    1.0000     (Insuf)    .00000     1.0000     1.0000    
+Wash Station.Queue.NumberInQueue            16.851     (Insuf)    .00000     35.000     33.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Vehicles.NumberIn                           106.00    
+Vehicles.NumberOut                          72.000    
+Wash Machine.NumberSeized                   73.000    
+Wash Machine.ScheduledUtilization           1.0000    
+System.NumberOut                            72.000    
+
+
+Simulation run time: 0.05 minutes.
+Simulation run complete.

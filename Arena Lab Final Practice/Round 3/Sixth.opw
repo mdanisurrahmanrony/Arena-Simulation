@@ -1,0 +1,7 @@
+[RESOURCES]
+Car Wash
+[VARIABLES]
+Arrival Car Wash.NumberOut
+Machine.NumberIn
+Machine.NumberOut
+Cars Exit.NumberOut

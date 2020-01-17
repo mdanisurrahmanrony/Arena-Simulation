@@ -1,0 +1,64 @@
+
+                                      ARENA Simulation Results
+                                       Rony - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Patient Doctor Clinic                                       Run execution date : 8/ 4/2019
+Analyst: Rony                                                        Model revision date: 8/ 4/2019
+
+Replication ended at time      : 20.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .24510     (Insuf)    .00000     .41667         34    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         34    
+Entity 1.WaitTime                           .10061     (Insuf)    .00000     .80632         34    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         34    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         34    
+Entity 1.TotalTime                          .34571     (Insuf)    .00000     1.2229         34    
+Doctorr Process.Queue.WaitingTime           .10971     (Insuf)    .00000     .43765         20    
+Nurse 2.Queue.WaitingTime                   .03720     (Insuf)    .00000     .12915          8    
+Nurse 1.Queue.WaitingTime                   .07741     (Insuf)    .00000     .36868         12    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .58770     (Insuf)    .00000     5.0000     .00000    
+Doctorr Resource.NumberBusy                 .25000     (Insuf)    .00000     1.0000     .00000    
+Doctorr Resource.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Doctorr Resource.Utilization                .25000     (Insuf)    .00000     1.0000     .00000    
+Nurse2 Resource.NumberBusy                  .06667     (Insuf)    .00000     1.0000     .00000    
+Nurse2 Resource.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Nurse2 Resource.Utilization                 .06667     (Insuf)    .00000     1.0000     .00000    
+Nurse1 Resource.NumberBusy                  .10000     (Insuf)    .00000     1.0000     .00000    
+Nurse1 Resource.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Nurse1 Resource.Utilization                 .10000     (Insuf)    .00000     1.0000     .00000    
+Doctorr Process.Queue.NumberInQueue         .10971     (Insuf)    .00000     2.0000     .00000    
+Nurse 2.Queue.NumberInQueue                 .01488     (Insuf)    .00000     1.0000     .00000    
+Nurse 1.Queue.NumberInQueue                 .04645     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           34.000    
+Entity 1.NumberOut                          34.000    
+Doctorr Resource.NumberSeized               20.000    
+Doctorr Resource.ScheduledUtilization       .25000    
+Nurse2 Resource.NumberSeized                8.0000    
+Nurse2 Resource.ScheduledUtilization        .06667    
+Nurse1 Resource.NumberSeized                12.000    
+Nurse1 Resource.ScheduledUtilization        .10000    
+System.NumberOut                            34.000    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

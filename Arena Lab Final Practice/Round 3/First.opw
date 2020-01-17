@@ -1,0 +1,11 @@
+[RESOURCES]
+ATM Booth Machine
+[VARIABLES]
+Decide for Queue.NumberOut True
+Decide for Queue.NumberOut False
+Booth Work.NumberIn
+Exit Customer from Booth.NumberOut
+Queue Wait.NumberIn
+Booth Work.NumberOut
+Customer Arrival at Booth.NumberOut
+Queue Wait.NumberOut

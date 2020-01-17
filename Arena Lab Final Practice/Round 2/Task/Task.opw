@@ -1,0 +1,11 @@
+[RESOURCES]
+Booth Machine
+[VARIABLES]
+Cust. Arrive.NumberOut
+Waiting Queue.NumberOut
+Check Line.NumberOut True
+Waiting Queue.NumberIn
+Booth.NumberIn
+Cust. Exit from Booth.NumberOut
+Check Line.NumberOut False
+Booth.NumberOut

@@ -1,0 +1,9 @@
+[RESOURCES]
+Resource Close Up Shop
+[VARIABLES]
+Decide Fifth.NumberOut True
+Tooth Shop.NumberIn
+Decide Fifth.NumberOut False
+Close Up Customer Exit.NumberOut
+Arrival Toothpaste Customer.NumberOut
+Tooth Shop.NumberOut

@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                                       Rony - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: ATM Booth Decide                                            Run execution date : 8/ 4/2019
+Analyst: Rony                                                        Model revision date: 8/ 4/2019
+
+Replication ended at time      : 20.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .07638     (Insuf)    .05851     .09159        189    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        189    
+Customer.WaitTime                           .00337     (Insuf)    .00000     .03392        189    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        189    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        189    
+Customer.TotalTime                          .07975     (Insuf)    .05851     .12399        189    
+Booth Work.Queue.WaitingTime                .00337     (Insuf)    .00000     .03392        189    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .75579     .13134     .00000     4.0000     1.0000    
+ATM Booth Machine.NumberBusy                .23625     (Insuf)    .00000     1.0000     .00000    
+ATM Booth Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATM Booth Machine.Utilization               .23625     (Insuf)    .00000     1.0000     .00000    
+Booth Work.Queue.NumberInQueue              .03185     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           190.00    
+Customer.NumberOut                          189.00    
+ATM Booth Machine.NumberSeized              189.00    
+ATM Booth Machine.ScheduledUtilization      .23625    
+System.NumberOut                            189.00    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.
